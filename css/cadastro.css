@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', cursive;
+}
+
+body, html {
+    background-color: #0011a8;
+    height: 100%;
+    color: #2e43fa; /* Cor azul uniforme para o texto em todo o corpo */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centraliza o contêiner verticalmente */
+    
+}
+
+.container {
+    position: relative;
+    top: 20px; /* Ajuste o valor conforme necessário para mover o contêiner para baixo */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    background-color: #ffffff;
+    width: 400px; /* Diminuído o tamanho do contêiner */
+    padding: 30px; /* Diminuído o padding */
+    border-radius: 5px;
+    text-align: center;
+    min-height: 80vh; /* Ajustado para garantir que o contêiner ocupe uma altura suficiente */
+    max-height: 100;
+}
+
+.container h1, .container h3 {
+    color: #2e43fa; /* Cor azul uniforme para os títulos */
+    margin-bottom: 15px; /* Ajuste a margem se necessário */
+}
+
+.radio-buttons {
+    margin-bottom: 15px; /* Ajuste a margem se necessário */
+}
+
+.radio-labels {
+    display: flex; /* Exibe os labels em linha */
+    justify-content: center; /* Alinha os labels ao centro */
+    gap: 50px; /* Espaçamento entre os labels reduzido */
+    margin-bottom: 10px;
+    color: #2e43fa; /* Cor azul uniforme para os labels */
+    font-weight: 600;
+}
+
+.radio-inputs {
+    display: flex; /* Exibe os inputs em linha */
+    justify-content: center; /* Alinha os inputs ao centro */
+    gap: -10px; /* Espaçamento entre os inputs */
+    margin-bottom: 10px;
+}
+
+.radio-buttons input[type="radio"] {
+    transform: scale(1); /* Ajuste o tamanho do rádio conforme necessário */
+    cursor: pointer;
+}
+
+.radio-buttons label {
+    color: #2e43fa; /* Cor azul uniforme para os labels de rádio */
+    margin: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.container input, .container select {
+    background-color: #ffffff;
+    width: 100%;
+    height: 35px; /* Ajustado o height para combinar com o tamanho reduzido do contêiner */
+    margin: 8px 0; /* Ajuste a margem se necessário */
+    box-sizing: border-box;
+    border-radius: 6px;
+    border: none;
+    border-bottom: 1px solid #6d6d6d;
+    padding-left: 10px;
+    color: #2e43fa; /* Cor azul uniforme para o texto dentro dos inputs e selects */
+}
+
+.container input::placeholder {
+    color: #2e43fa96; /* Cor azul com opacidade para o placeholder */
+}
+
+.container button, .container a.button {
+    font-size: 0.9rem; /* Reduzido o tamanho da fonte dos botões */
+    line-height: 1.8rem; /* Ajustado o line-height */
+    font-weight: 800;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 0.5rem 1rem; /* Ajustado o padding dos botões */
+    cursor: pointer;
+    background: transparent;
+    color: #2e43fa; /* Cor azul uniforme para o texto dos botões */
+    border: 1px solid currentColor;
+    border-radius: 4px;
+    margin-top: 15px; /* Ajuste a margem se necessário */
+    transition: 0.3s;
+}
+
+.container button:hover, .container a.button:hover, 
+.container button:focus, .container a.button:focus {
+    color: #ffffff;
+    background-color: #0011a8;
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+.container a.button {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+}
