@@ -143,7 +143,7 @@
     <title>Cadastro</title>
     <link rel="shortcut icon" href="../Images/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-    <script src="../CadastroCliente/js/alterarFormulario.js"></script>
+    <script src="../CadastroAdministrador/js/alterarFormulario.js"></script>
 </head>
 <body>
    
@@ -267,7 +267,7 @@
             </form>
             
             <br>
-             <a href="admin-dashboard.jsp" class="button">Voltar ao Painel de Controle</a>
+            <a href="admin-dashboard.jsp" class="button">Voltar ao Painel de Controle</a>
         </div>
     </div>
     <script>

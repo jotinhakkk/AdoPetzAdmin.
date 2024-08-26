@@ -15,24 +15,18 @@ body, html {
 header {
     text-align: center;
     padding: 2px 0;
-   
 }
 
 #logo {
     
-    position: absolute;
-    top: 140px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 1;
-    width: 100px;
+    width: 50px;
     height: auto;
 
 }
 
 .container {
     position: relative;
-    top: 50px; /* Ajustado para alinhamento com o logo */
+    top: 170px; /* Ajustado para alinhamento com o logo */
     left: 50%;
     transform: translateX(-50%);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
@@ -77,12 +71,21 @@ header {
 }
 
 .back-link {
-    display: inline-block;
+    display: block;
     font-size: 1rem;
+    line-height: 2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    background: transparent;
     color: #2e43fa;
+    border: 1px solid currentColor;
+    border-radius: 4px;
+    margin-top: 10px;
     text-decoration: none;
-    margin-top: 20px;
-    transition: 0.3s;
+    transition: 0.3s
 }
 
 .back-link:hover,

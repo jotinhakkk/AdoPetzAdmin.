@@ -27,7 +27,7 @@
             <a href="cadastro.jsp" class="button">Cadastrar Cliente</a>
             <a href="excluir_clientes.jsp" class="button">Excluir Cliente</a>
             <a href="redefinir_dados.jsp" class="button">Alterar Cliente</a>
-            <a href="dados_clientes.jsp" class="button">Puxar Dados de um Cliente</a>
+            <a href="buscar_dados.jsp" class="button">Puxar Dados de um Cliente</a>
         </div>
         <a href="logout.jsp" class="back-link">Finalizar Sessão</a>
     </main>
